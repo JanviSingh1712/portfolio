@@ -111,7 +111,7 @@ export default function About() {
               <div className="stat-lbl">CGPA</div>
             </div>
             <div className="stat-box">
-              <div className="stat-num" data-count="5" data-dec="0">0</div>
+             <div className="stat-num" data-count="5" data-dec="0">0</div>
               <div className="stat-lbl">Live Projects</div>
             </div>
             <div className="stat-box">
