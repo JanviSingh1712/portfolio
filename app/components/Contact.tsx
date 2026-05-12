@@ -45,7 +45,7 @@ export default function Contact() {
           </a>
 
           <div className="rv d4" style={{ display: 'flex', gap: '.8rem', marginTop: '1.6rem', flexWrap: 'wrap' }}>
-            <a href="https://linkedin.com/in/JanviSingh" target="_blank" rel="noreferrer" className="soc-link"><LinkedinIcon /> LinkedIn</a>
+            <a href="https://www.linkedin.com/in/janvi-singh1708/" target="_blank" rel="noreferrer" className="soc-link"><LinkedinIcon /> LinkedIn</a>
             <a href="https://github.com/JanviSingh1712" target="_blank" rel="noreferrer" className="soc-link"><GithubIcon /> GitHub</a>
             <a href="tel:+918707775051" className="soc-link">📞 +91 87077 75051</a>
           </div>

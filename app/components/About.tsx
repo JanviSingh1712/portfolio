@@ -69,16 +69,9 @@ export default function About() {
             }}
           >
             {/* ── REPLACE THIS DIV WITH YOUR <img> TAG ──
-                <img src="/photo.jpg" alt="Janvi" style={{width:'100%',height:'100%',objectFit:'cover',display:'block'}} />
+                <img src="/Profile.jpeg" alt="Janvi" style={{width:'100%',height:'100%',objectFit:'cover',display:'block'}} />
             */}
-            <div style={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: '1rem', color: 'var(--muted)', padding: '2rem', textAlign: 'center' }}>
-              <svg width="56" height="56" viewBox="0 0 56 56" fill="none" style={{ opacity: 0.3 }}>
-                <circle cx="28" cy="20" r="12" stroke="#8B7EC8" strokeWidth="1.5" />
-                <path d="M4 54c0-13.255 10.745-24 24-24s24 10.745 24 24" stroke="#8B7EC8" strokeWidth="1.5" strokeLinecap="round" />
-              </svg>
-              <div style={{ fontSize: '.85rem', fontWeight: 600, color: 'var(--lavender)' }}>Your Photo Here</div>
-              <div style={{ fontSize: '.7rem', color: 'var(--muted)' }}>Drop your image in /public/photo.jpg</div>
-            </div>
+            <img src="/Profile.jpeg" alt="Janvi" style={{width:'100%',height:'100%',objectFit:'cover',display:'block'}} />
           </div>
 
           {/* Floating chips */}
