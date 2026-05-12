@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 
 const projects = [
   {
@@ -34,6 +34,28 @@ const projects = [
     live: '#',
     github: '#',
   },
+  {
+    num: '04',
+    meta: 'Broadcast Platform',
+    name: 'BroadcastED',
+    desc: 'Content broadcasting system with auth, teacher/principal dashboards, drag-and-drop uploads, full approval workflow, and live broadcast pages.',
+    stack: ['Next.js','Tailwind CSS','React Hook Form','Zod','date-fns'],
+    accent: 'ac-coral',
+    tagClass: 't-coral',
+    live: 'https://broadcast-channel-wz7ugl9wn-janvisingh1712s-projects.vercel.app',
+    github: '#',
+  },
+  {
+    num: '05',
+    meta: 'Task Manager',
+    name: 'TaskFlow',
+    desc: 'Full-stack task manager with a Node/Express API and modern frontend UI, deployed on Vercel with filterable task lists and CRUD actions.',
+    stack: ['Node.js','Express.js','JavaScript','HTML','CSS'],
+    accent: 'ac-lav',
+    tagClass: 't-lav',
+    live: 'https://task-maanager-f4wv974go-janvisingh1712s-projects.vercel.app',
+    github: '#',
+  },
 ];
 
 const GithubIcon = () => (
@@ -51,7 +73,7 @@ export default function Projects() {
             <p className="chip rv">Projects</p>
             <h2 className="h-display rv d1">Work I&apos;m<br /><em>proud of</em></h2>
           </div>
-          <div className="rv" style={{ fontFamily: 'Fraunces,Georgia,serif', fontStyle: 'italic', fontSize: '5rem', fontWeight: 300, color: 'var(--border-med)', lineHeight: 1 }}>03</div>
+          <div className="rv" style={{ fontFamily: 'Fraunces,Georgia,serif', fontStyle: 'italic', fontSize: '5rem', fontWeight: 300, color: 'var(--border-med)', lineHeight: 1 }}>{projects.length.toString().padStart(2, '0')}</div>
         </div>
 
         <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
